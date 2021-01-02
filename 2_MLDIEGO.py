@@ -23,7 +23,7 @@ class mercadolibre(CrawlSpider):
     name= "MercadoLibreSpider"
     custom_settings = {
       'USER_AGENT': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/71.0.3578.80 Chrome/71.0.3578.80 Safari/537.36',
-      'CLOSESPIDER_PAGECOUNT': 250 # Numero maximo de paginas en las cuales voy a descargar items. Scrapy se cierra cuando alcanza este numero
+      'CLOSESPIDER_PAGECOUNT': 250 # Max number of pages to scrape
     }
     allowed_domains = ['zapatos.mercadolibre.com.ve', 'articulo.mercadolibre.com.ve']
 
